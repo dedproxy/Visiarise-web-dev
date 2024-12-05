@@ -11,7 +11,6 @@ const Demo = () => {
   const demoRef = useRef(null);
 
   // Example product data
-  // Example product data
   const products = [
     { id: 1, name: "Product 1", image: "public/product-1.png" },
     { id: 2, name: "Product 2", image: "public/product-2.png" },
