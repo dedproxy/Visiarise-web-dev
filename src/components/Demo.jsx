@@ -11,19 +11,20 @@ const Demo = () => {
   const demoRef = useRef(null);
 
   // Example product data
+  // Example product data
   const products = [
-    { id: 1, name: "Product 1", image: "src/assets/product-1.png" },
-    { id: 2, name: "Product 2", image: "src/assets/product-2.png" },
-    { id: 3, name: "Product 3", image: "src/assets/product-3.png" },
-    { id: 4, name: "Product 4", image: "src/assets/product-4.png" },
-    { id: 5, name: "Product 5", image: "src/assets/product-5.png" },
-    { id: 6, name: "Product 6", image: "src/assets/product-6.png" },
-    { id: 7, name: "Product 7", image: "src/assets/product-7.png" },
-    { id: 8, name: "Product 8", image: "src/assets/product-8.png" },
-    { id: 9, name: "Product 9", image: "src/assets/product-9.png" },
-    { id: 10, name: "Product 10", image: "src/assets/product-10.png" },
-    { id: 11, name: "Product 11", image: "src/assets/product-11.png" },
-    { id: 12, name: "Product 12", image: "src/assets/product-12.png" },
+    { id: 1, name: "Product 1", image: "public/product-1.png" },
+    { id: 2, name: "Product 2", image: "public/product-2.png" },
+    { id: 3, name: "Product 3", image: "public/product-3.png" },
+    { id: 4, name: "Product 4", image: "public/product-4.png" },
+    { id: 5, name: "Product 5", image: "public/product-5.png" },
+    { id: 6, name: "Product 6", image: "public/product-6.png" },
+    { id: 7, name: "Product 7", image: "public/product-7.png" },
+    { id: 8, name: "Product 8", image: "public/product-8.png" },
+    { id: 9, name: "Product 9", image: "public/product-9.png" },
+    { id: 10, name: "Product 10", image: "public/product-10.png" },
+    { id: 11, name: "Product 11", image: "public/product-11.png" },
+    { id: 12, name: "Product 12", image: "public/product-12.png" },
   ];
 
   const steps = [
